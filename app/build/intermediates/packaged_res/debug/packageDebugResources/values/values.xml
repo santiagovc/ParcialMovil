@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_primary">#9FAEBC</color>
+    <color name="purple_primary_dark">#7C8D9B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">AsistenteCompras</string>
+    <string name="btn_calculate_discount">Calcular Descuento</string>
+    <string name="btn_calculate_installments">Calcular Cuotas</string>
+    <string name="btn_calculate_split">Calcular División</string>
+    <string name="default_user_name">Carlos Mendoza</string>
+    <string name="error_invalid_amount">Ingrese un monto válido</string>
+    <string name="error_invalid_installments">Las cuotas deben ser al menos 1</string>
+    <string name="error_invalid_interest">Interés no válido</string>
+    <string name="greeting_prefix">Hola,</string>
+    <string name="hint_bill_total">Valor total de la cuenta ($)</string>
+    <string name="hint_discount_percent">Porcentaje de descuento (%)</string>
+    <string name="hint_installments_count">Número de cuotas</string>
+    <string name="hint_interest_rate">Tasa de interés mensual (%)</string>
+    <string name="hint_original_price">Precio original del producto ($)</string>
+    <string name="hint_people_count">Número de personas</string>
+    <string name="hint_purchase_amount">Monto de la compra ($)</string>
+    <string name="hint_tip_percent">Porcentaje de propina (%)</string>
+    <string name="logout_description">Cerrar sesión</string>
+    <string name="result_discount_amount">Valor del descuento: $0</string>
+    <string name="result_final_price">Total a pagar: $0</string>
+    <string name="result_monthly_fee">Valor cuota mensual: %1$s</string>
+    <string name="result_per_person">Cada persona paga: $0</string>
+    <string name="result_tip_amount">Valor de propina: $0</string>
+    <string name="result_total_interest">Intereses totales: %1$s</string>
+    <string name="result_total_paid">Total a pagar: %1$s</string>
+    <string name="result_total_with_tip">Total con propina: $0</string>
+    <string name="tab_discount">Descuentos</string>
+    <string name="tab_installments">Cuotas</string>
+    <string name="tab_split">Dividir Cuenta</string>
+    <string name="title_discount">Calculadora de Descuentos</string>
+    <string name="title_installments">Calculadora de Compra a Cuotas</string>
+    <string name="title_split_bill">Dividir Cuenta y propina</string>
+    <style name="Theme.TiendaMovil" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/purple_primary_dark</item>
+    </style>
+</resources>
